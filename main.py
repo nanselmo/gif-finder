@@ -31,7 +31,7 @@ class MainHandler(webapp2.RequestHandler):
     	self.response.out.write(main_template.render())
     def post(self):
         base_url = "http://api.giphy.com/v1/gifs/search?q="
-        api_key_url = "&api_key=dc6zaTOxFJmzC"
+        api_key_url = "&api_key=dc6zaTOxFJmzC&limit=10"
         search = self.request.get('search')
         search_term = search + '%20hunger%20games'
         if search_term:
