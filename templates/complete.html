@@ -6,8 +6,13 @@
   <head>
     <body>
       <div id="bigbackground">
+          {% if msg == "okay" %}
           <p>So you were feeling like this? </p>
           <img src={{url}} alt ="a gif about {{search_term}}" </p>
+          {% else %}
+          <p>No Results Found for {{search_term}}, Go Back and Enter a New Search Term</p>
+          <img src="http://media.giphy.com/media/XRoWUf4udXZ9C/giphy.gif" alt ="a gif about {{search_term}}" </p>
+          {% endif %}
       </div>
     </body>
 </html>
