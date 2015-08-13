@@ -1,0 +1,33 @@
+body{
+  margin:auto;
+  width: 50%;
+}
+
+img{
+  width: 100%;
+}
+
+div.background{
+
+  background-image: url(http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/a8/11/a811da4076b171340f881169246f58de.png?itok=COfEZ8GT);
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  height: 350px;
+
+}
+div.transbox{
+  margin: 125px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+ p{
+   font-weight: bold;
+   color: #000000;
+   text-align: center;
+}
+div#bigbackground{
+  border: 2px solid black;
+  height: 350px;
+}
